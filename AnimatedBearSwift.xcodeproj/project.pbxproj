@@ -8,26 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		CFDE4F9F2383036D001D3860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDE4F9E2383036D001D3860 /* AppDelegate.swift */; };
-		CFDE4FA12383036E001D3860 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CFDE4FA02383036E001D3860 /* GameScene.sks */; };
-		CFDE4FA32383036E001D3860 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CFDE4FA22383036E001D3860 /* Actions.sks */; };
 		CFDE4FA52383036E001D3860 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDE4FA42383036E001D3860 /* GameScene.swift */; };
 		CFDE4FA72383036E001D3860 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDE4FA62383036E001D3860 /* GameViewController.swift */; };
 		CFDE4FAA2383036E001D3860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFDE4FA82383036E001D3860 /* Main.storyboard */; };
 		CFDE4FAC2383036F001D3860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDE4FAB2383036F001D3860 /* Assets.xcassets */; };
 		CFDE4FAF2383036F001D3860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFDE4FAD2383036F001D3860 /* LaunchScreen.storyboard */; };
+		CFDE4FDB23830B37001D3860 /* BearImages.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CFDE4FDA23830B37001D3860 /* BearImages.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CFDE4F9B2383036D001D3860 /* AnimatedBearSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedBearSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDE4F9E2383036D001D3860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CFDE4FA02383036E001D3860 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		CFDE4FA22383036E001D3860 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		CFDE4FA42383036E001D3860 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		CFDE4FA62383036E001D3860 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		CFDE4FA92383036E001D3860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFDE4FAB2383036F001D3860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFDE4FAE2383036F001D3860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFDE4FB02383036F001D3860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDE4FDA23830B37001D3860 /* BearImages.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = BearImages.atlas; path = ../../../../Downloads/BearImages.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +58,8 @@
 		CFDE4F9D2383036D001D3860 /* AnimatedBearSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CFDE4FDA23830B37001D3860 /* BearImages.atlas */,
 				CFDE4F9E2383036D001D3860 /* AppDelegate.swift */,
-				CFDE4FA02383036E001D3860 /* GameScene.sks */,
-				CFDE4FA22383036E001D3860 /* Actions.sks */,
 				CFDE4FA42383036E001D3860 /* GameScene.swift */,
 				CFDE4FA62383036E001D3860 /* GameViewController.swift */,
 				CFDE4FA82383036E001D3860 /* Main.storyboard */,
@@ -132,10 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFDE4FAA2383036E001D3860 /* Main.storyboard in Resources */,
-				CFDE4FA12383036E001D3860 /* GameScene.sks in Resources */,
 				CFDE4FAC2383036F001D3860 /* Assets.xcassets in Resources */,
 				CFDE4FAF2383036F001D3860 /* LaunchScreen.storyboard in Resources */,
-				CFDE4FA32383036E001D3860 /* Actions.sks in Resources */,
+				CFDE4FDB23830B37001D3860 /* BearImages.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.NoahRange.AnimatedBearSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -322,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.NoahRange.AnimatedBearSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
